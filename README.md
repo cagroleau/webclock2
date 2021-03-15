@@ -1,5 +1,8 @@
 # webclock2
 
+Webclock programmed by Chris Groleau October 2019,
+Dockerized March 2021
+
 ## Project setup
 ```
 npm install

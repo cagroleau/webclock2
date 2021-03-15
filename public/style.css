@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  buffer: 0;
+}
+
+body {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: monospace;
+}
+
+#webclock {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 10em;
+  display: block;
+  width: 100%;
+  margin: 0, auto;
+}
+#webclock {
+  color: hsla(120, 100%, 70%, 0.95);
+  text-shadow: 0.5em 0.5em .7em hsla(120, 100%, 60%, 0.95),
+              -0.5em 0.5em .7em hsla(120, 100%, 60%, 0.95),
+              0.5em -0.5em .7em hsla(120, 100%, 60%, 0.95),
+              -0.5em -0.5em .7em hsla(120, 100%, 60%, 0.95);
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 2em;
+}
